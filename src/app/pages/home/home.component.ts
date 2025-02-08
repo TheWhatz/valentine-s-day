@@ -12,7 +12,7 @@ import { ComponentsModule } from '../../components/components.module';
 })
 export class HomeComponent implements OnInit {
   label!: string;
-  homeIcon = '/home.json';
+  homeIcon = 'home.json';
   messageIndex!: number;
   count: number = 2;
 

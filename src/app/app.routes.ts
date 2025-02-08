@@ -11,4 +11,5 @@ export const routes: Routes = [
     path: 'love',
     component: LoveComponent,
   },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];

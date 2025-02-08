@@ -8,6 +8,6 @@ import { ComponentsModule } from '../../components/components.module';
   styleUrl: './love.component.css',
 })
 export class LoveComponent {
-  loveIcon = '/love.json';
-  heartIcon = '/heart.json';
+  loveIcon = 'love.json';
+  heartIcon = 'heart.json';
 }

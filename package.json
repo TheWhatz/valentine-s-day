@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration=production --base-href /valentine-s-day/ --deploy-url /valentine-s-day/",
+    "deploy": "npx angular-cli-ghpages --dir=dist/valentine-s-day/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
